@@ -1,0 +1,49 @@
+:root {
+    --color-bg: rgb(0, 125, 92);
+    --color-black: rgb(0, 0, 0);
+    --color-white: #fff;
+    --color-light: rgb(241, 241, 241);
+    --color-variant: rgb(0, 137, 123);
+    --color-btn: rgb(216, 27, 96);
+    --color-bg-variant: rgb(146, 146, 146);
+
+    --transition: all 400ms ease;
+    width: 1800px;
+    max-resolution: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: 2vh;
+}
+
+ body {
+    font-family: 'Segoe UI', sans-serif;
+    background: var(--color-light);
+    color: #000;
+ }
+
+ a:link {
+    text-decoration-line: none;
+    color: var(--color-black);
+    cursor: pointer;
+ }
+
+ /* a:hover {
+        text-box: rgb(106, 106, 106);
+ } */
+
+/* ========================== MEDIA QUERIES (MEDIUM DEVICES) ====================== */
+@media screen and (max-width: 1024px) {
+    
+
+}
+
+/* ========================== MEDIA QUERIES (SMALL DEVICES) ====================== */
+@media screen and (max-width: 600px) {
+
+ 
+}
