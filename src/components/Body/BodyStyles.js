@@ -183,10 +183,11 @@ export const AboutInformation = styled.p`
     color: rgb(66, 66, 66);
 
     @media screen and (max-width: 768px) {
-        letter-spacing: none;
+        letter-spacing: 1.2px;
         line-height: 1.5rem;
         padding: 0.8rem;
         margin-top: -1.5rem;
+        text-align: justify;
     }
 `
 
@@ -220,6 +221,10 @@ export const RequestForm = styled.form`
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+
+    @media screen and (max-width: 768px) {
+        gap: 1rem;
+    }
 `
 
 export const First = styled.input`
@@ -228,6 +233,10 @@ export const First = styled.input`
     box-shadow: 2px solid rgba(0,0,0,0,0.06);
     border-radius: 0.5rem;
     font-size: 1.2rem;
+
+    @media screen and (max-width: 768px) {
+        height: 30px;
+    }
 `
 
 export const Last = styled.input`
@@ -236,6 +245,10 @@ export const Last = styled.input`
     box-shadow: 2px solid rgba(0,0,0,0,0.06);
     border-radius: 0.5rem;
     font-size: 1.2rem;
+
+    @media screen and (max-width: 768px) {
+        height: 30px;
+    }
 `
 
 export const Mail = styled.input`
@@ -244,6 +257,10 @@ export const Mail = styled.input`
     box-shadow: 2px solid rgba(0,0,0,0,0.06);
     border-radius: 0.5rem;
     font-size: 1.2rem;
+
+    @media screen and (max-width: 768px) {
+        height: 30px;
+    }
 `
 
 export const Phone = styled.input`
@@ -252,6 +269,10 @@ export const Phone = styled.input`
     box-shadow: 2px solid rgba(0,0,0,0,0.06);
     border-radius: 0.5rem;
     font-size: 1.2rem;
+
+    @media screen and (max-width: 768px) {
+        height: 30px;
+    }
 `
 
 export const Address = styled.input`
@@ -260,6 +281,10 @@ export const Address = styled.input`
     box-shadow: 2px solid rgba(0,0,0,0,0.06);
     border-radius: 0.5rem;
     font-size: 1.2rem;
+
+    @media screen and (max-width: 768px) {
+        height: 30px;
+    }
 `
 
 export const Question = styled.input`
@@ -268,6 +293,10 @@ export const Question = styled.input`
     box-shadow: 2px solid rgba(0,0,0,0,0.06);
     border-radius: 0.5rem;
     font-size: 1.2rem;
+
+    @media screen and (max-width: 768px) {
+        height: 30px;
+    }
 `
 
 export const ProgramChoice = styled.input`
@@ -276,6 +305,10 @@ export const ProgramChoice = styled.input`
     box-shadow: 2px solid rgba(0,0,0,0,0.06);
     border-radius: 0.5rem;
     font-size: 1.2rem;
+
+    @media screen and (max-width: 768px) {
+        height: 30px;
+    }
 `
 
 export const Agreement = styled.p`

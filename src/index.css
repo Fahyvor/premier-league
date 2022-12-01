@@ -9,7 +9,7 @@
 
     --transition: all 400ms ease;
     width: 1800px;
-    max-resolution: 100%;
+    max-resolution: 75%;
 }
 
 html {
@@ -43,7 +43,7 @@ html {
 }
 
 /* ========================== MEDIA QUERIES (SMALL DEVICES) ====================== */
-@media screen and (max-width: 600px) {
-
+@media screen and (max-width: 768px) {
+    width: 600px;
  
 }

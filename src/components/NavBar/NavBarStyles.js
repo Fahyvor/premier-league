@@ -169,7 +169,9 @@ export const MobileNav = styled.div`
         display: flex;
         flex-direction: rows;
         padding: 1rem;
-        gap: 5rem;
+        gap: 85px;
+        width: 380px;
+        justify-content: space-between;
     }
 `
 
