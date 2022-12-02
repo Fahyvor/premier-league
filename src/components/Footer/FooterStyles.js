@@ -6,7 +6,7 @@ export const FootNote = styled.h5`
     justify-content: center;
 
     @media screen and (max-width: 768px) {
-        width: 400px;
+        width: 340px;
         display: flex;
     }
 `

@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const HeadContainer = styled.div`
+    width: 1340px;
     @media screen and (max-width: 768px) {
         display: none;
     }
@@ -47,7 +48,8 @@ export const LogoItems = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 38rem;
+    gap: 10rem;
+    // margin-left: -10rem;
 
     @media screen and (max-width: 1024px) {
         flex-direction: column;
@@ -60,7 +62,7 @@ export const LogoItems = styled.div`
     }
 `
 export const HeadLogo = styled.img`
-    height: 60px;
+    height: 50px;
     width: 280px;
     padding-left: 20px;
     margin-top: -60px;

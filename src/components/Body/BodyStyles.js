@@ -7,7 +7,7 @@ export const BodyContainer = styled.div`
     @media screen and (max-width: 768px) {
         display: flex;
         flex-direction: column;
-        width: 700px;
+        width: 340px;
         margin-top: -1.2rem;
     }
 `
@@ -18,7 +18,7 @@ export const LeftSide = styled.div`
     margin: 0.8rem;
 
     @media screen and (max-width: 768px) {
-      width: 400px;
+      width: 330px;
       display: flex;
       flex-direction: column;
       justify-content: space-around;
@@ -34,7 +34,7 @@ export const Name = styled.div`
     margin-top: -1rem;
 
     @media screen and (max-width: 768px) {
-        gap: 50px;
+        gap: 5px;
         padding: 5px;
     }
 `
@@ -48,7 +48,7 @@ export const UniversityName = styled.h2`
     text-decoration-thickness: 0.2rem;
 
     @media screen and (max-width: 768px) {
-        font-size: 1rem;
+        font-size: 0.8rem;
         margin-top: -1rem;
         padding-left: 1rem;
     }
@@ -58,7 +58,7 @@ export const UniversityLogo = styled.img`
     aspect-ratio: 1\1;
 
     @media screen and (max-width: 768px) {
-        width: 25px;
+        width: 20px;
         margin-left: 100px;
     }
 `
@@ -84,7 +84,8 @@ export const BodyNav = styled.div`
     justify-content: space-around;
     
     @media screen and (max-width: 768px) {
-        gap: 4rem;
+        gap: 1rem;
+        margin-top: -1.8rem;
     }
 `
 
@@ -106,7 +107,9 @@ export const Chat = styled.h4`
 `
 
 export const Programs = styled.h4`
-
+    @media screen and (max-width: 768px) {
+        margin-top: -0.8rem;
+    }
 `
 
 export const BodyNavBtnDrop = styled.div`
@@ -142,6 +145,7 @@ export const Contact = styled.button`
         font-weight: 500;
         font-size: 0.7rem;
         height: 40px;
+        margin-top: -0.5rem;
     }
 `
 
@@ -153,8 +157,8 @@ export const Student = styled.img`
     height: 520px;
 
     @media screen and (max-width: 768px) {
-        width: 380px;
-        height: 220px; 
+        width: 330px;
+        height: 210px; 
         align-items: center;
         justify-content: center;
     }
@@ -170,9 +174,10 @@ export const AboutName = styled.h2`
     color: rgb(66, 66, 66);
 
     @media screen and (max-width: 768px) {
-        font-weight: 500;
-        font-size: 2rem;
+        font-weight: 700;
+        font-size: 1.4rem;
         padding-left: 0.8rem;
+        padding-bottom: 0.8rem;
     }
 `
 
@@ -183,8 +188,8 @@ export const AboutInformation = styled.p`
     color: rgb(66, 66, 66);
 
     @media screen and (max-width: 768px) {
-        letter-spacing: 1.2px;
-        line-height: 1.5rem;
+        letter-spacing: 0.5px;
+        line-height: 1.8rem;
         padding: 0.8rem;
         margin-top: -1.5rem;
         text-align: justify;
@@ -201,12 +206,17 @@ export const RightSide = styled.div`
     padding: 2rem;
 
     @media screen and (max-width: 768px) {
-        width: 320px;
+        width: 310px;
         margin-left: 0.5rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        padding-top: 0.5rem;
     }
 `
 export const Message = styled.div`
-
+    @media screen and (max-width: 768px) {
+        width: 300px;
+    }
 `
 
 export const MessageHead = styled.h3`
@@ -214,7 +224,7 @@ export const MessageHead = styled.h3`
 `
 
 export const MessageInformation = styled.p`
-
+    text-align: justify;
 `
 
 export const RequestForm = styled.form`
@@ -223,7 +233,8 @@ export const RequestForm = styled.form`
     gap: 0.5rem;
 
     @media screen and (max-width: 768px) {
-        gap: 1rem;
+        gap: 3rem;
+        width: 300px;
     }
 `
 
@@ -235,7 +246,8 @@ export const First = styled.input`
     font-size: 1.2rem;
 
     @media screen and (max-width: 768px) {
-        height: 30px;
+        height: 20px;
+        width: 300px;
     }
 `
 
@@ -247,7 +259,8 @@ export const Last = styled.input`
     font-size: 1.2rem;
 
     @media screen and (max-width: 768px) {
-        height: 30px;
+        height: 20px;
+        width: 300px;
     }
 `
 
@@ -259,7 +272,8 @@ export const Mail = styled.input`
     font-size: 1.2rem;
 
     @media screen and (max-width: 768px) {
-        height: 30px;
+        height: 20px;
+        width: 300px;
     }
 `
 
@@ -271,7 +285,8 @@ export const Phone = styled.input`
     font-size: 1.2rem;
 
     @media screen and (max-width: 768px) {
-        height: 30px;
+        height: 20px;
+        width: 300px;
     }
 `
 
@@ -283,7 +298,8 @@ export const Address = styled.input`
     font-size: 1.2rem;
 
     @media screen and (max-width: 768px) {
-        height: 30px;
+        height: 20px;
+        width: 300px;
     }
 `
 
@@ -295,7 +311,8 @@ export const Question = styled.input`
     font-size: 1.2rem;
 
     @media screen and (max-width: 768px) {
-        height: 30px;
+        height: 20px;
+        width: 300px;
     }
 `
 
@@ -307,13 +324,18 @@ export const ProgramChoice = styled.input`
     font-size: 1.2rem;
 
     @media screen and (max-width: 768px) {
-        height: 30px;
+        height: 20px;
+        width: 300px;
     }
 `
 
 export const Agreement = styled.p`
     text-align: justify;
     width: 200px;
+
+    @media screen and (max-width: 768px) {
+        width: 300px;
+    }
 `
 
 export const Submit = styled.button`
@@ -324,4 +346,8 @@ export const Submit = styled.button`
     font-size: 1rem;
     margin-left: 15rem;
     border: 0px solid;
+
+    @media screen and (max-width: 768px) {
+        margin-left: 12rem;
+    }
 `

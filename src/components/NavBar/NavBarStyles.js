@@ -8,6 +8,7 @@ export const NavContainer = styled.div`
     border: solid rgb(0, 125, 92);
     align-items: center;
     padding-right: 0.7rem;
+    width: 1340px;
 
     @media screen and (max-width: 1024px) {
         flex-direction: column;
@@ -26,18 +27,18 @@ export const NavSearchContainer = styled.div`
 //     color: rgb(--color-light);
 // `
 export const NavSearch = styled.input`
-    width: 650px;
+    width: 450px;
     padding: 1rem;
     height: 37px;
-    margin-top: 0.1rem;
-    margin-left: -1rem;
+    // margin-top: 0.1rem;
+    margin-left: 0.5rem;
 `
 export const NavBtn = styled.button`
     color: white;
     background-color: var(--color-btn);
-    width: 150px;
+    width: 140px;
     marting-top: 0.1rem;
-    font-size: 22px;
+    font-size: 15px;
     justify-content: center;
     align-items: center;
     font-weight: 700;
@@ -47,8 +48,8 @@ export const NavBtn = styled.button`
 export const NavDrop = styled.div`
     display: flex;
     flex-direction: row;
-    gap: 1.5rem;
-    padding: 0.5rem;
+    gap: 1rem;
+    // padding: 0.5rem;
     margin-left: 1rem;
 
     @media screen and (max-width: 768px) {
@@ -64,8 +65,8 @@ export const Category = styled.div`
     gap: 0.4rem;
     align-items: center;
     color: white;
-    height: 60px;
-    width: 150px;
+    height: 55px;
+    width: 100px;
 `
 export const ProgramLevel = styled.div`
     background-color: var(--color-variant);
@@ -76,8 +77,8 @@ export const ProgramLevel = styled.div`
     gap: 0.4rem;
     align-items: center;
     color: white;
-    height: 60px;
-    width: 200px;
+    height: 55px;
+    width: 160px;
 `
 export const Location = styled.div`
     background-color: var(--color-variant);
@@ -88,8 +89,8 @@ export const Location = styled.div`
     gap: 0.4rem;
     align-items: center;
     color: white;
-    height: 60px;
-    width: 150px;
+    height: 55px;
+    width: 100px;
 `
 export const Delivery = styled.div`
     background-color: var(--color-variant);
@@ -100,8 +101,8 @@ export const Delivery = styled.div`
     gap: 0.4rem;
     align-items: center;
     color: white;
-    height: 60px;
-    width: 150px;
+    height: 55px;
+    width: 100px;
 `
 // ========================= DROPDOWN ITEMS ====================
 
@@ -169,9 +170,9 @@ export const MobileNav = styled.div`
         display: flex;
         flex-direction: rows;
         padding: 1rem;
-        gap: 85px;
-        width: 380px;
-        justify-content: space-between;
+        gap: 70px;
+        width: 340px;
+        justify-content: space-around;
     }
 `
 
@@ -191,6 +192,7 @@ export const LogoImage = styled.img`
 export const MobileName = styled.h5`
     color: rgb(146, 146, 146);
     margin-top: 1.5px;
+    font-size: 0.7rem;
 `
 
 export const MobileNavItems = styled.div`
@@ -198,6 +200,7 @@ export const MobileNavItems = styled.div`
     margin-top: 0.2rem;
     display: flex;
     position: abosolute;
+    transition: var(--transition);
 `
 
 export const NavMobile = styled.div`

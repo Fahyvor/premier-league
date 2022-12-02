@@ -46,7 +46,7 @@ const NavBar = () => {
     <NavContainer>
         <NavDrop>
         <Category onClick={showCategory} onMouseLeave={hideCategory}>
-            <h3>CATEGORY</h3>
+            <h4>CATEGORY</h4>
             <AiFillCaretDown />
             {state ?(  <CatItems>
         <a href='/'>SCIENCE</a>
@@ -59,7 +59,7 @@ const NavBar = () => {
              null}
         </Category> 
         <ProgramLevel onClick={showDropdown} onMouseLeave={hideDropdown}>
-            <h3>PROGRAM LEVEL</h3>
+            <h4>PROGRAM LEVEL</h4>
             <AiFillCaretDown />
             {dropdown ?(
                 <ProgItems>
@@ -71,7 +71,7 @@ const NavBar = () => {
             ): null}
         </ProgramLevel>
         <Location onClick={showLocation} onMouseLeave={hideLocation}>
-            <h3>LOCATION</h3>
+            <h4>LOCATION</h4>
             <AiFillCaretDown />
             {location ?(
                 <LocationItems>
@@ -81,7 +81,7 @@ const NavBar = () => {
             ): null}
         </Location>
         <Delivery>
-            <h3>DELIVERY</h3>
+            <h4>DELIVERY</h4>
             <AiFillCaretDown />
         </Delivery>
         </NavDrop>
