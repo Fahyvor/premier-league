@@ -171,7 +171,7 @@ export const MobileNav = styled.div`
         flex-direction: rows;
         padding: 1rem;
         gap: 70px;
-        width: 340px;
+        max-width: 300px;
         justify-content: space-around;
     }
 `

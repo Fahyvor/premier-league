@@ -44,6 +44,9 @@ html {
 
 /* ========================== MEDIA QUERIES (SMALL DEVICES) ====================== */
 @media screen and (max-width: 768px) {
-    width: 360px;
+    :root{
+        width: 90%;
+        padding: 5%;
+    }
  
 }

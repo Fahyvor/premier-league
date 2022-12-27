@@ -7,7 +7,7 @@ export const BodyContainer = styled.div`
     @media screen and (max-width: 768px) {
         display: flex;
         flex-direction: column;
-        width: 340px;
+        // max-width: 340px;
         margin-top: -1.2rem;
     }
 `
@@ -18,7 +18,7 @@ export const LeftSide = styled.div`
     margin: 0.8rem;
 
     @media screen and (max-width: 768px) {
-      width: 330px;
+      width: 100%;
       display: flex;
       flex-direction: column;
       justify-content: space-around;
@@ -34,8 +34,8 @@ export const Name = styled.div`
     margin-top: -1rem;
 
     @media screen and (max-width: 768px) {
-        gap: 5px;
-        padding: 5px;
+        gap: 5%;
+        padding: 3%;
     }
 `
 
@@ -74,7 +74,6 @@ export const NameofSchool = styled.h6`
 
     @media screen and (max-width: 768px) {
         margin-top: 1.5rem;
-        padding-right: 1.2rem;
     }
 `
 
@@ -157,8 +156,8 @@ export const Student = styled.img`
     height: 520px;
 
     @media screen and (max-width: 768px) {
-        width: 330px;
-        height: 210px; 
+        width: 300px;
+        height: 190px; 
         align-items: center;
         justify-content: center;
     }
@@ -206,16 +205,13 @@ export const RightSide = styled.div`
     padding: 2rem;
 
     @media screen and (max-width: 768px) {
-        width: 310px;
-        margin-left: 0.5rem;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
-        padding-top: 0.5rem;
+        width: 90%;
+        padding: 5%;
     }
 `
 export const Message = styled.div`
     @media screen and (max-width: 768px) {
-        width: 300px;
+        width: 100%;
     }
 `
 
@@ -233,8 +229,8 @@ export const RequestForm = styled.form`
     gap: 0.5rem;
 
     @media screen and (max-width: 768px) {
-        gap: 3rem;
-        width: 300px;
+        gap: 25px;
+        width: 90%;
     }
 `
 
@@ -246,8 +242,8 @@ export const First = styled.input`
     font-size: 1.2rem;
 
     @media screen and (max-width: 768px) {
-        height: 20px;
-        width: 300px;
+        height: 50px;
+        width: 100%;
     }
 `
 
@@ -259,8 +255,8 @@ export const Last = styled.input`
     font-size: 1.2rem;
 
     @media screen and (max-width: 768px) {
-        height: 20px;
-        width: 300px;
+        height: 50px;
+        width: 100%;
     }
 `
 
@@ -272,8 +268,8 @@ export const Mail = styled.input`
     font-size: 1.2rem;
 
     @media screen and (max-width: 768px) {
-        height: 20px;
-        width: 300px;
+        height: 50px;
+        width: 100%;
     }
 `
 
@@ -285,8 +281,8 @@ export const Phone = styled.input`
     font-size: 1.2rem;
 
     @media screen and (max-width: 768px) {
-        height: 20px;
-        width: 300px;
+        height: 50px;
+        width: 100%;
     }
 `
 
@@ -298,8 +294,8 @@ export const Address = styled.input`
     font-size: 1.2rem;
 
     @media screen and (max-width: 768px) {
-        height: 20px;
-        width: 300px;
+        height: 50px;
+        width: 100%;
     }
 `
 
@@ -311,8 +307,8 @@ export const Question = styled.input`
     font-size: 1.2rem;
 
     @media screen and (max-width: 768px) {
-        height: 20px;
-        width: 300px;
+        height: 50px;
+        width: 100%;
     }
 `
 
@@ -324,8 +320,8 @@ export const ProgramChoice = styled.input`
     font-size: 1.2rem;
 
     @media screen and (max-width: 768px) {
-        height: 20px;
-        width: 300px;
+        height: 50px;
+        width: 100%;
     }
 `
 
@@ -334,7 +330,7 @@ export const Agreement = styled.p`
     width: 200px;
 
     @media screen and (max-width: 768px) {
-        width: 300px;
+        width: 100%;
     }
 `
 
@@ -348,6 +344,6 @@ export const Submit = styled.button`
     border: 0px solid;
 
     @media screen and (max-width: 768px) {
-        margin-left: 12rem;
+        margin-left: 70%;
     }
 `
