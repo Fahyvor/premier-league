@@ -221,6 +221,10 @@ export const MessageHead = styled.h3`
 
 export const MessageInformation = styled.p`
     text-align: justify;
+
+    @media screen and (max-width: 600px) {
+        text-justify: inter-word;
+    }
 `
 
 export const RequestForm = styled.form`
@@ -244,6 +248,7 @@ export const First = styled.input`
     @media screen and (max-width: 768px) {
         height: 50px;
         width: 100%;
+        margin-bottom: 20px;
     }
 `
 
@@ -257,6 +262,7 @@ export const Last = styled.input`
     @media screen and (max-width: 768px) {
         height: 50px;
         width: 100%;
+        margin-bottom: 20px;
     }
 `
 
@@ -270,6 +276,7 @@ export const Mail = styled.input`
     @media screen and (max-width: 768px) {
         height: 50px;
         width: 100%;
+        margin-bottom: 20px;
     }
 `
 
@@ -283,6 +290,7 @@ export const Phone = styled.input`
     @media screen and (max-width: 768px) {
         height: 50px;
         width: 100%;
+        margin-bottom: 20px;
     }
 `
 
@@ -296,6 +304,7 @@ export const Address = styled.input`
     @media screen and (max-width: 768px) {
         height: 50px;
         width: 100%;
+        margin-bottom: 20px;
     }
 `
 
@@ -309,6 +318,7 @@ export const Question = styled.input`
     @media screen and (max-width: 768px) {
         height: 50px;
         width: 100%;
+        margin-bottom: 20px;
     }
 `
 
@@ -322,6 +332,7 @@ export const ProgramChoice = styled.input`
     @media screen and (max-width: 768px) {
         height: 50px;
         width: 100%;
+        margin-bottom: 20px;
     }
 `
 
@@ -331,6 +342,7 @@ export const Agreement = styled.p`
 
     @media screen and (max-width: 768px) {
         width: 100%;
+        margin-bottom: 10px;
     }
 `
 
