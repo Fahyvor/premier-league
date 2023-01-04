@@ -234,6 +234,7 @@ export const RequestForm = styled.form`
 
     @media screen and (max-width: 768px) {
         gap: 25px;
+        margin: 8px, 2px;
         width: 90%;
     }
 `
