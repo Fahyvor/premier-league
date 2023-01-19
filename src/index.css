@@ -1,15 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
 :root {
-    --color-bg: rgb(0, 125, 92);
+    --color-bg: rgb(55, 0, 60);
     --color-black: rgb(0, 0, 0);
     --color-white: #fff;
-    --color-light: rgb(241, 241, 241);
-    --color-variant: rgb(0, 137, 123);
-    --color-btn: rgb(216, 27, 96);
-    --color-bg-variant: rgb(146, 146, 146);
+    --color-light: rgb(141, 138, 138);
+    --color-variant: rgb(225, 42, 137);
+    --color-drop: rgb(225, 40, 130);
+    --color-bg-variant: rgb(45, 55, 101);
+    --color-bg-variant-light: rgb(21, 247,255);
 
     --transition: all 400ms ease;
     width: 1340px;
     max-resolution: 100%;
+    font-family: 'Roboto',  sans-serif;
 }
 
 html {
@@ -22,19 +25,15 @@ html {
 
  body {
     font-family: 'Segoe UI', sans-serif;
-    background: var(--color-light);
+    background: var(--color-white);
     color: #000;
  }
 
  a:link {
     text-decoration-line: none;
-    color: var(--color-black);
     cursor: pointer;
  }
 
- /* a:hover {
-        text-box: rgb(106, 106, 106);
- } */
 
 /* ========================== MEDIA QUERIES (MEDIUM DEVICES) ====================== */
 @media screen and (max-width: 1024px) {

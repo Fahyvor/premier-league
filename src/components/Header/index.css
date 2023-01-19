@@ -1,0 +1,79 @@
+.head {
+    display: flex;
+    gap: 1.5rem;
+    background-color: var(--color-white);
+    padding: 0.6rem;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.clubsite{
+    color: grey;
+}
+
+.afc{
+    height: 2rem;
+}
+
+.brentford{
+    width: auto;
+    height: 2rem;
+}
+
+.Brighton{
+    height: 2rem;
+    width: auto;
+    margin-left: -1.2rem;
+}
+
+.chelsea{
+    height: 2rem;
+    margin-left: -1.2rem;
+}
+
+.crystal{
+    height: 2rem;
+}
+
+.everton{
+    height: 2rem;
+}
+
+.fulham{
+    height: 2rem;
+}
+
+.leeds{
+    height: 2rem;
+}
+
+.liverpool{
+    height: 2rem;
+}
+
+.mancity{
+    height: 2rem;
+}
+
+.manu{
+    height: 2rem;
+}
+
+.tottenham{
+    height: 2rem;
+    margin-left: -1rem;
+}
+
+.westbrom{
+    height: 2rem;
+    margin-left: -1rem;
+}
+
+.westham{
+    height: 2rem;
+}
+
+.wolverhampton{
+    height: 2rem;
+}

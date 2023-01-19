@@ -1,0 +1,112 @@
+.Nav{
+    position: sticky;
+    display: flex;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 1230px;
+}
+
+.fullnav{
+
+}
+
+.mainlogo{
+    position: absolute;
+    background-color: var(--color-white);
+    border-radius: 50%;
+    margin-left: -1.5rem;
+}
+
+.premier{
+    height: 8rem;
+    border: 0px solid var(--color-white);
+    border-radius: 50%;
+    margin-left: 2rem;
+    background-color: var(--color-white);
+    padding: 1rem;
+}
+
+.navupper{
+    display: flex;
+    color: var(--color-white);
+    background-color: var(--color-bg);
+    height: 7rem;
+    gap: 2rem;
+    padding: 1rem;
+    height: 45px;
+    width: 1270px;
+    padding-left: 3rem;
+    justify-content: center;
+}
+
+.premierleague{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.fantasy{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;   
+}
+
+.video{
+    display: flex;
+    align-items: center;
+}
+
+.communities{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.more{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.rightbox{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    border-left: 0.1rem solid var(--color-light);
+    border-right: 0.1rem solid var(--color-light);
+    height: 20px;
+    padding: 0.5rem;
+}
+
+.lownav{
+    position: sticky;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 2rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+    margin-left: 10rem;
+}
+
+.lownav,a{
+    color: var(--color-light);
+}
+
+.low-nav-more{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 0.2rem;
+    margin-left: 7rem;
+}
+
+.low-nav0-more,h5{
+    margin-top: 0.3rem;
+}
