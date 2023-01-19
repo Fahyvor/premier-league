@@ -1,14 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.39855d85.css",
-    "main.js": "/static/js/main.0383f3a6.js",
-    "static/media/Student.jpeg": "/static/media/Student.4af3bd4e01a1fb1c9d86.jpeg",
+    "main.css": "/static/css/main.5947b62f.css",
+    "main.js": "/static/js/main.6d27157b.js",
+    "static/media/Chelsea.png": "/static/media/Chelsea.032f8440392be3d2c88e.png",
+    "static/media/Liverpool.png": "/static/media/Liverpool.197739221f484a0721a4.png",
+    "static/media/Manchester-united.png": "/static/media/Manchester-united.8a52904f9badfc1de054.png",
+    "static/media/Crystal-palace.png": "/static/media/Crystal-palace.dbc1cc5cd7bbe80b667d.png",
+    "static/media/Everton.png": "/static/media/Everton.57c411221470c94c2ebe.png",
+    "static/media/Manchester-city.png": "/static/media/Manchester-city.4368ec34490e1815347d.png",
+    "static/media/Brentford.png": "/static/media/Brentford.429bd52b9e7bc9869fa0.png",
+    "static/media/Premier.png": "/static/media/Premier.41933b1811cba4b8aa6e.png",
+    "static/media/Leeds.png": "/static/media/Leeds.dfe14bf6a56500ccc330.png",
+    "static/media/West-brom.png": "/static/media/West-brom.c4de0afe423a6d3c557b.png",
+    "static/media/West-ham.png": "/static/media/West-ham.2e1cb9048bced7a9b92a.png",
+    "static/media/AFC.png": "/static/media/AFC.3008763fa8f454f5af23.png",
+    "static/media/Brighton.png": "/static/media/Brighton.9afc5f9ce407ea4d6cf2.png",
+    "static/media/Fulham.png": "/static/media/Fulham.dbeb3af6ec8cdd1caeb5.png",
+    "static/media/Wolverhampton.png": "/static/media/Wolverhampton.b2576c8ae4e027996c4e.png",
+    "static/media/Queen.png": "/static/media/Queen.199aaa513fda1cf36fb1.png",
     "index.html": "/index.html",
-    "main.39855d85.css.map": "/static/css/main.39855d85.css.map",
-    "main.0383f3a6.js.map": "/static/js/main.0383f3a6.js.map"
+    "main.5947b62f.css.map": "/static/css/main.5947b62f.css.map",
+    "main.6d27157b.js.map": "/static/js/main.6d27157b.js.map"
   },
   "entrypoints": [
-    "static/css/main.39855d85.css",
-    "static/js/main.0383f3a6.js"
+    "static/css/main.5947b62f.css",
+    "static/js/main.6d27157b.js"
   ]
 }
